@@ -47,4 +47,11 @@ Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC a
 
 ![](img/DCmotor_MPC.jpg)
 
-## MPC with constraints
+## MPC with constraints (output)
+
+![](img/constraints.png)
+
+* In the initialization variables: Create M matrix
+* In the control loop: 
+	* Calculate the gamma matrix with the constraints of the output
+	* Recalculate DeltaU from optimization with restrictions
