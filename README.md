@@ -5,7 +5,7 @@ Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC a
 ![](img/mpc.png)
 
 
-## MPC
+## Model predictive control (MPC)
 ### Algorithm
 
 * Initialization of the variables
@@ -45,7 +45,7 @@ Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC a
 		
 ### Example: Position control of a DC motor
 
-![](img/DCmotor_MPC.jpg)
+![](img/DCmotor_MPC.png)
 
 ## MPC with constraints (output)
 
@@ -59,3 +59,15 @@ Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC a
 	* Recalculate DeltaU from optimization with restrictions
 	
 	![](img/constraints.png)
+
+### Example: Position control of a DC motor
+
+![](img/DCmotor_MPC-constrains.png)
+
+## Dynamic matrix control (DMC)
+
+(under construction)
+
+## Generalized predictive control (GPC)
+
+(under construction)
