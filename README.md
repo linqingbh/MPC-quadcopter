@@ -15,11 +15,11 @@ Real-Time Model Predictive Control: MPC, MPC with constraints, DMC and GPC
 
 
   * Incremental control trajectory vector (DeltaU)
-
+  
 * Calculate the constant part of DeltaU
 
 
-*Control loop
+* Control loop
 	
   * Read input signal 
 	* Calculate the variable part of DeltaU
