@@ -7,17 +7,13 @@ Real-Time Model Predictive Control: MPC, MPC with constraints, DMC and GPC
 ### Implementation algorithm
 
 * Initialization of the variables
-
 * Considering the state-space system, the control horizon (Nc) and prediction horizon (Np), get the augmented incremental model and the parameters of the control trajectories vector (DeltaU)
-
   * Augmented incremental model
 
 
 
-  * Incremental control trajectory vector (DeltaU)
-  
+  * Incremental control trajectory vector (DeltaU)  
 * Calculate the constant part of DeltaU
-
 
 * Control loop
 
