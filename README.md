@@ -11,13 +11,19 @@ Real-Time Model Predictive Control: MPC, MPC with constraints, DMC and GPC
   * Augmented incremental model
   
 	![](img/states_vector.jpg)
+	
 	![](img/ss_model.jpg)
+	
 	![](img/om.jpg)
 
   * Incremental control trajectory vector (DeltaU)
   
   	![](img/DeltaU.jpg)
-	![](img/Rs.jpg) ![](img/R.jpg)
+	
+	![](img/Rs.jpg) 
+	
+	![](img/R.jpg)
+	
 	![](img/F_G.jpg)
 	
 * Calculate the constant part of DeltaU
