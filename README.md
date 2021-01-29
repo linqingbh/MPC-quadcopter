@@ -18,7 +18,7 @@ Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC a
 	
 	![](img/om.jpg)
 
-  * Incremental control trajectory vector (DeltaU)
+  * Incremental control trajectory vector (DeltaU) obtained from the cost function minimization
   
   	![](img/DeltaU.jpg)
 	
