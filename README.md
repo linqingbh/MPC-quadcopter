@@ -1,5 +1,5 @@
 # Model Predictive Control
-Real-Time Model Predictive Control: MPC, MPC with constraints, DMC and GPC
+Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC and GPC
 
 ![](img/mpc.jpg)
 
@@ -40,3 +40,7 @@ Real-Time Model Predictive Control: MPC, MPC with constraints, DMC and GPC
 	* Get the incremental system state
 	
 		![](img/states_vector.jpg)
+		
+### Example: Position control of a DC motor
+
+![](img/DCmotor_MPC.jpg)
