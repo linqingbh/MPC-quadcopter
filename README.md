@@ -2,7 +2,7 @@
 Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC and GPC
 
 
-![](img/mpc.jpg)
+![](img/mpc.png)
 
 
 ## MPC
@@ -12,25 +12,21 @@ Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC a
 * Get the augmented incremental model and the parameters of the control trajectories vector (DeltaU) based on the state-space system, the control horizon (Nc) and prediction horizon (Np) 
   * Augmented incremental model
   
-	![](img/states_vector.jpg)
+	![](img/states_vector.png)
 	
-	![](img/ss_model.jpg)
+	![](img/ss_model.png)
 	
-	![](img/om.jpg)
+	![](img/om.png)
 
   * Incremental control trajectory vector (DeltaU) obtained from the cost function minimization
   
-  	![](img/DeltaU.jpg)
+  	![](img/DeltaU.png)	
 	
-	![](img/DeltaU.png)
+	![](img/Rs.png) 
 	
-	![](img/DeltaU.tiff)
+	![](img/R.png)
 	
-	![](img/Rs.jpg) 
-	
-	![](img/R.jpg)
-	
-	![](img/F_G.jpg)
+	![](img/F_G.png)
 	
 * Calculate the constant part of DeltaU
 
@@ -41,11 +37,11 @@ Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC a
 	* Add both parts and apply the receding horizon control extracting first element
 	* Get the control signal
 	
-		![](img/uk.jpg)
+		![](img/uk.png)
 		
 	* Get the incremental system state
 	
-		![](img/states_vector.jpg)
+		![](img/states_vector.png)
 		
 ### Example: Position control of a DC motor
 
