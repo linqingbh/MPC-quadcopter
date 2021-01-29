@@ -35,7 +35,7 @@ function simulator_init
     %% Constant part of the incremental trajectory control
     data.f1=data.GG+R*eye(data.Nc,data.Nc);
     
-    %% Constrain parameters
+    %% Constraints parameters
     data.ymax=(pi/6)*1.02;  % output max limit
     data.ymin=(pi/6)*0.98;  % output min limit
     data.M=[data.G(1,:);-data.G(1,:)]; % Constrain matrix M
