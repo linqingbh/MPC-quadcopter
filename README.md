@@ -22,6 +22,8 @@ Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC a
   
   	![](img/DeltaU.jpg)
 	
+	![](img/DeltaU.png)
+	
 	![](img/Rs.jpg) 
 	
 	![](img/R.jpg)
