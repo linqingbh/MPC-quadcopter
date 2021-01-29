@@ -20,8 +20,8 @@ Real-Time Model Predictive Control: MPC, MPC with constraints, DMC and GPC
 
 
 * Control loop
-	
-  * Read input signal 
+
+	* Read input signal 
 	* Calculate the variable part of DeltaU
 	* Add both parts and apply the receding horizon control extracting first element
 	* Get the control signal
