@@ -25,9 +25,9 @@ function [exectime, data] = controller(seg, data)
     
     % Calculate U
     f2=data.GR*r-data.GF*data.Xf;  % Get the second part of U
-    DeltaU=inv(data.f1)*f2; %% Get DeltaU without constrains
+    DeltaU=inv(data.f1)*f2; %% Get DeltaU without constraints
     
-    % Constrains
+    % Constraints
     gamma=[data.ymax-data.F(1,:)*data.Xf;-data.ymin+data.F(1,:)*data.Xf];
     %DeltaU=optim(data.f1,-f2,data.M,gamma,DeltaU); 
     
