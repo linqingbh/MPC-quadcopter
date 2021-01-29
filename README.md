@@ -44,3 +44,5 @@ Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC a
 ### Example: Position control of a DC motor
 
 ![](img/DCmotor_MPC.jpg)
+
+## MPC with constraints
