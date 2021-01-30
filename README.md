@@ -71,3 +71,6 @@ Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC a
 ## Generalized predictive control (GPC)
 
 (under construction)
+
+## References
+Theory and references from "Sistemas de control en tiempo real para aplicaciones industriales. Teoría, problemas y prácticas - Ramón Guzmán". Laboratory exercices developed in "Real-time control system" subject of Master’s degree in Automatic Systems Engineering and Industrial Electronics - UPC
