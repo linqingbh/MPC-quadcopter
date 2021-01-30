@@ -73,4 +73,4 @@ Real-Time control simulations using Model Predictive Control: MPC, MPC with cons
 (under construction)
 
 ## References
-Theory and references from "Sistemas de control en tiempo real para aplicaciones industriales. Teoría, problemas y prácticas - Ramón Guzmán". Laboratory exercices developed in "Real-time control system" subject of Master’s degree in Automatic Systems Engineering and Industrial Electronics - UPC
+Theory and laboratory exercices developed in "Real-time control system" subject of Master’s degree in Automatic Systems Engineering and Industrial Electronics - UPC
