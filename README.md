@@ -47,7 +47,7 @@ Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC a
 
 ![](img/DCmotor_MPC.png)
 
-## MPC with constraints (output)
+## MPC with output constraints
 
 * In the initialization variables: 
 
@@ -60,7 +60,7 @@ Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC a
 	
 	![](img/constraints.png)
 
-### Example: Position control of a DC motor
+### Example: Position control of a DC motor with output constraints
 
 ![](img/DCmotor_MPC-constrains.png)
 
