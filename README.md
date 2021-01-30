@@ -1,5 +1,5 @@
 # Model Predictive Control
-Real-Time Model Predictive Control simulations: MPC, MPC with constraints, DMC and GPC
+Real-Time control simulations using Model Predictive Control: MPC, MPC with constraints, DMC and GPC
 
 
 ![](img/mpc.png)
