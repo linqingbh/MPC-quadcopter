@@ -86,7 +86,7 @@ Real-Time control simulations using Model Predictive Control: MPC, MPC with cons
 
 ### Example: Temperature control (Arduino TCLAB implementation) 
 
-![](img/GPC_TCLAB.jpg)
+![](img/GPC_arduino.jpg)
 
 ## References
 Laboratory exercices developed in "Real-time control system" subject of Master’s degree in Automatic Systems Engineering and Industrial Electronics - UPC
