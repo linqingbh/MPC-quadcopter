@@ -68,9 +68,25 @@ Real-Time control simulations using Model Predictive Control: MPC, MPC with cons
 
 (under construction)
 
+### Example: Temperature control (True Time simulaion) 
+
+![](img/DMC.jpg)
+
+### Example: Temperature control (Arduino TCLAB implementation) 
+
+![](img/DMC_TCLAB.jpg)
+
 ## Generalized predictive control (GPC)
 
 (under construction)
 
+### Example: Temperature control (True Time simulaion) 
+
+![](img/GPC.jpg)
+
+### Example: Temperature control (Arduino TCLAB implementation) 
+
+![](img/GPC_TCLAB.jpg)
+
 ## References
-Theory and laboratory exercices developed in "Real-time control system" subject of Master’s degree in Automatic Systems Engineering and Industrial Electronics - UPC
+Laboratory exercices developed in "Real-time control system" subject of Master’s degree in Automatic Systems Engineering and Industrial Electronics - UPC
