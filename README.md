@@ -1,12 +1,22 @@
-# Model Predictive Control
-Real-Time control simulations using Model Predictive Control: MPC, MPC with constraints, DMC and GPC
+# MPC Quadcopter
+Model Predictive Control for an autonomous quadcopter (UAV)
 
-
-![](img/mpc.png)
+* System modelling
+	* State-Space model
+	* Linearized
+* Controller design
+	* PID SISO control approach
+	* MPC MIMO control approach
+	* Observers: Kalman filter
+* Simulation
+	* PID simulation
+	* MPC simulation (linear model)
+	* Real-Time simulation (non-linear model)
 
 
 ## Model predictive control (MPC)
-### Algorithm
+### Algorithm	
+![](img/mpc.png)
 
 * Initialization of the variables
 * Get the augmented incremental model and the parameters of the control trajectories vector (DeltaU) based on the state-space system, the control horizon (Nc) and prediction horizon (Np) 
@@ -41,11 +51,8 @@ Real-Time control simulations using Model Predictive Control: MPC, MPC with cons
 		
 	* Get the incremental system state
 	
-		![](img/states_vector.png)
-		
-### Example: Position control of a DC motor
+		![](img/states_vector.png)	
 
-![](img/DCmotor_MPC.png)
 
 ## MPC with output constraints
 
@@ -60,33 +67,8 @@ Real-Time control simulations using Model Predictive Control: MPC, MPC with cons
 	
 	![](img/constraints.png)
 
-### Example: Position control of a DC motor with output constraints
-
-![](img/DCmotor_MPC-constrains.png)
-
-## Dynamic matrix control (DMC)
-
-(under construction)
-
-### Example: Temperature control (True Time simulaion) 
-
-![](img/DMC.jpg)
-
-### Example: Temperature control (Arduino TCLAB implementation) 
-
-![](img/DMC_TCLAB.jpg)
-
-## Generalized predictive control (GPC)
-
-(under construction)
-
-### Example: Temperature control (True Time simulaion) 
-
-![](img/GPC.jpg)
-
-### Example: Temperature control (Arduino TCLAB implementation) 
-
-![](img/GPC_arduino.jpg)
 
 ## References
-Laboratory exercices developed in "Real-time control system" subject of Master’s degree in Automatic Systems Engineering and Industrial Electronics - UPC
+Sistemas de control en tiempo real para aplicaciones industriales: Teoría, problemas y prácticas - Ramón Guzmán 2020
+Dynamic Modeling and Control of a Quadrotor Using Linear and Nonlinear Approaches - H. M. Nabil ElKholy - 2014
+Decentralized Navigation of Multiple Quad-rotors using Model Predictive Control - I. Khan - 2017
