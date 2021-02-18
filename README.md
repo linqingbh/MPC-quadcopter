@@ -69,7 +69,7 @@ Model Predictive Control for an autonomous quadcopter (UAV)
 	* Recalculate DeltaU from optimization with restrictions
 	
 	Constraint output / u / delta u:	
-	![](img/constraint_y.png)! [](img/constraint_u.png) ![](img/constraint_Au.png)
+	![](img/constraint_y.png) ![](img/constraint_u.png) ![](img/constraint_Au.png)
 
 
 ## References
