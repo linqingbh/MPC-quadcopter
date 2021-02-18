@@ -64,10 +64,13 @@ Model Predictive Control for an autonomous quadcopter (UAV)
 
 	* Calculate the gamma matrix with the constraints of the output	
 	* Recalculate DeltaU from optimization with restrictions
+	* 
 	Constraint output:
 	![](img/constraint_y.png)
+	
 	Constraint u:
 	![](img/constraint_u.png)
+	
 	Constraint delta u:
 	![](img/constraint_Au.png)
 
