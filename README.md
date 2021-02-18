@@ -15,6 +15,10 @@ Model Predictive Control for an autonomous quadcopter (UAV)
 
 
 ## Model predictive control (MPC)
+### Quadcopter simulation
+![](img/3d.png)
+![](img/y.png)
+
 ### Algorithm	
 ![](img/mpc.png)
 
@@ -64,14 +68,17 @@ Model Predictive Control for an autonomous quadcopter (UAV)
 
 	* Calculate the gamma matrix with the constraints of the output	
 	* Recalculate DeltaU from optimization with restrictions
-	* 
+	
 	Constraint output:
+	
 	![](img/constraint_y.png)
 	
 	Constraint u:
+	
 	![](img/constraint_u.png)
 	
 	Constraint delta u:
+	
 	![](img/constraint_Au.png)
 
 
