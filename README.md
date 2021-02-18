@@ -3,7 +3,7 @@ Model Predictive Control for an autonomous quadcopter (UAV)
 
 * System modelling
 	* State-Space model
-	* Simplification and linearization
+	* Linearization
 * Controller design
 	* PID SISO control approach
 	* MPC MIMO control approach
