@@ -13,6 +13,7 @@ Model Predictive Control for an autonomous quadcopter (UAV)
 	* MPC simulation (linear model)
 	* Real-Time simulation (non-linear model)
 
+(Under construction)
 
 ## Model predictive control (MPC)
 ### Quadcopter simulation
@@ -60,6 +61,7 @@ Model Predictive Control for an autonomous quadcopter (UAV)
 	
 		![](img/states_vector.png)	
 
+Figures from [1]
 
 ## MPC with output constraints
 
@@ -76,8 +78,11 @@ Model Predictive Control for an autonomous quadcopter (UAV)
 	
 	![](img/constraint_y.png) ![](img/constraint_u.png) ![](img/constraint_Au.png)
 
+Figures from [1]
 
 ## References
-Sistemas de control en tiempo real para aplicaciones industriales: Teoría, problemas y prácticas - Ramón Guzmán 2020
-Dynamic Modeling and Control of a Quadrotor Using Linear and Nonlinear Approaches - H. M. Nabil ElKholy - 2014
-Decentralized Navigation of Multiple Quad-rotors using Model Predictive Control - I. Khan - 2017
+[1] Sistemas de control en tiempo real para aplicaciones industriales: Teoría, problemas y prácticas - Ramón Guzmán 2020
+
+[2] Dynamic Modeling and Control of a Quadrotor Using Linear and Nonlinear Approaches - H. M. Nabil ElKholy - 2014
+
+[3] Decentralized Navigation of Multiple Quad-rotors using Model Predictive Control - I. Khan - 2017
